@@ -1,10 +1,12 @@
 import React from "react";
-import { directive } from "@babel/types";
+import Placar from "./Placar";
+import './PlacarContainer.scss'
 
 const PlacarContainer = () => {
     return (
         <div className="PlacarContainer">
-            Placar Container
+            <Placar time="Front-End"/>
+            <Placar time="Back-End"/>
         </div>
     )
 }

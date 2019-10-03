@@ -1,10 +1,12 @@
 import React from "react";
+import './Placar.scss'
 
-const Placar = () => {
+    
+const Placar = ({time}) => {
     return (
-        <div className="Placar">
-            Placar Container
-        </div>
+    <div className="Placar">
+        <h1>{time}</h1>
+    </div>
     )
 }
 
